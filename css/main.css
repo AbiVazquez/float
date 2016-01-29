@@ -1,12 +1,11 @@
 div {
 	height: 100px;
 	width: 25%;
+	float: left;
 }
 .grande{
-	height: 300px;
 	width: 500px;
 	border: 2px solid black;
-	margin-top: 20px
 }
 .amarillo{
 	background: yellow;
@@ -16,4 +15,11 @@ div {
 }
 .rosa{
 	background: #DF01A5;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
 }
